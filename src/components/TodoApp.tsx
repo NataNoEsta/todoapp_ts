@@ -9,6 +9,9 @@ const TodoApp = () => {
     lista.splice(index,1)
     setLista([...lista])
   }
+  /*const handleBorrarTarea = (index: number) => {
+    setLista(tareas => tareas.filter((_, i) => i!==index))
+  }*/
 	const handleAgregar = () => {
     setLista([...lista, newTask])
     setNewTask("");
