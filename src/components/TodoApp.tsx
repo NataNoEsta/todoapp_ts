@@ -16,7 +16,7 @@ const TodoApp = () => {
     setLista([...lista, newTask])
     setNewTask("");
   };
-  console.log(lista)
+  // console.log(lista)
 	return (
 		<div>
 			<h1>Lista de tareas</h1>
